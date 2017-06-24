@@ -4,10 +4,10 @@
 ##
 ## 1. makeCacheMatrix : This function creates a list whose elements are actually functions to perform the following
 ##    tasks:
-##    a. create function to set the value of the matrix
-##    b. create function to get the value of the matrix  
-##    c. create function to set the inverse of the matrix  
-##    d. create function to get the inverse of the matrix
+##    a. create function to set the value of the matrix - set()
+##    b. create function to get the value of the matrix   - get()
+##    c. create function to set the inverse of the matrix   - setinv()
+##    d. create function to get the inverse of the matrix - getinv()
 ##
 ## 2. cacheSolve : This function accepts the makeCacheMatrix as an argument and then checks if the inverse has been 
 ##    computed already. If, so it gets the inverse from the cache. Otherwise, it computes the inverse of the matrix
